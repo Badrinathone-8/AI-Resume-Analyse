@@ -32,8 +32,9 @@
 ### Upload Page
 ![Upload Page](my-app/public/resumepage.png)
 ### Analysis Page
-![Analysis Page](https://user-images.githubusercontent.com/yourusername/analysis-page.png)
-
+![Analysis Page](my-app/public/Screenshot 2025-09-11 123254.png)
+### Analysis Page
+![Analysis Page](my-app/public/Screenshot 2025-09-11 123614.png)
 ### Optional GIF Demo
 ![Demo GIF](https://user-images.githubusercontent.com/yourusername/demo.gif)
 
