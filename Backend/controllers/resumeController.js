@@ -50,7 +50,7 @@ export const addResume = async (req, res) => {
     const response = await cohere.generate({
       model: "command",
       prompt,
-      max_tokens: 200,
+      max_tokens: 1000,
       temperature: 0.7,
     });
 
