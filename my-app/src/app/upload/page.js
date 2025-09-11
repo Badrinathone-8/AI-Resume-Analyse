@@ -9,7 +9,8 @@ export default function UploadPage() {
   const [loading, setLoading] = useState(false);
   const [description, setDescription] = useState("");
 
-  const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:9000";
+  const API_BASE = process.env.NEXT_PUBLIC_API_URL
+  //  || "http://localhost:9000";
 
   const handleUpload = async (e) => {
     e.preventDefault();
