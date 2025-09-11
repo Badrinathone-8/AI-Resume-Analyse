@@ -1,0 +1,11 @@
+# Node modules
+**/node_modules/
+
+<!-- # Next.js build
+frontend/.next/ -->
+
+# Backend uploads
+backend/uploads/
+
+# Environment variables
+**/.env*

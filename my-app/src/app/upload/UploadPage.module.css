@@ -1,0 +1,166 @@
+.heroDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 2rem;
+  /* background-color: #9c4343; */
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to right,
+    rgba(254, 255, 255, 1),  /* left side, semi-transparent */
+    rgba(108, 224, 224, 0.3)   /* right side, semi-transparent */
+  );
+}
+
+/* Left Side - Main Content */
+.main {
+    width:60%;
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.main h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.main h4 {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.main p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Form Wrapper */
+.formDiv {
+  /* background: #ffffff; */
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 450px;
+  margin-top: 1.5rem;
+    justify-content: center;
+     background: linear-gradient(
+    to right,
+    rgba(120, 124, 123, 1),  /* left side, semi-transparent */
+    rgba(147, 209, 196, 0.5),  /* left side, semi-transparent */
+  );
+
+}
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* File Input */
+.input[type="file"] {
+  padding: 0.4rem 0.6rem;     /* smaller padding */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fafafa;
+  font-size: 0.85rem;         /* smaller font size */
+  transition: border 0.3s;
+  width: 70%;                 /* reduce input box width */
+  max-width: 250px;           /* prevent it from stretching */
+}
+
+.input[type="file"]:hover {
+  border-color: #0077ff;
+}
+.textarea{
+    
+  padding: 0.4rem 0.6rem;     /* smaller padding */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fafafa;
+  font-size: 0.85rem;         /* smaller font size */
+  transition: border 0.3s;
+  width: 70%;                 /* reduce input box width */
+  max-width: 250px; 
+
+}
+.button {
+  padding: 0.4rem 0.8rem;   /* spacing around text */
+  border: none;
+  background-color: rgb(8, 135, 93);
+  color: white;
+  font-size: 0.9rem;        /* readable size */
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: inline-block;    /* ✅ makes width shrink to content */
+  width: 10rem;              /* ✅ no fixed width */
+  height: auto;      
+  margin-left:3.2rem;       /*//✅ no fixed height */
+}
+
+.button:hover {
+  background-color: white;
+color: rgb(8, 135, 93);
+
+  transform: translateY(-2px);
+}
+
+/* Right Side - Image */
+.side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side img {
+  /* max-width: 80%; */
+  width:85%;
+  height: auto;
+  border-radius: 9px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+/* Analysis Container */
+.analysisBox {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-height: 300px;       /* limit height */
+  overflow-y: auto;        /* scroll if content is too long */
+  width: 100%;             /* fit inside formDiv */
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+.analysisBox h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.analysisBox ul {
+  padding-left: 20px;
+}
+
+.analysisBox li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}

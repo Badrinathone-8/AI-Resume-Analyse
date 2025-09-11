@@ -1,0 +1,83 @@
+/* Reset margin/padding from body */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.Navbar {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 20px rgba(147, 57, 57, 0.2);
+  border-bottom: 0.02 solid rgb(32, 29, 29);
+
+}
+
+.navDiv {
+  display: flex;
+  justify-content: space-between; /* Logo left, links middle, auth right */
+  align-items: center;
+  padding: 1rem 1rem;
+  /* box-shadow: 0px 6px 20px rgba(147, 57, 57, 0.2); */
+  box-shadow: black;
+  /* background-color: rgb(8, 135, 93); */
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(8, 135, 93);
+
+  
+}
+
+/* Uploads / Middle links */
+.uploadsDiv {
+  display: flex;
+  gap: 2rem; /* adds spacing between links */
+}
+
+.uploadsDiv h4,
+.uploadsDiv h3 {
+  margin: 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.uploadsDiv h4:hover,
+.uploadsDiv h3:hover {
+color: rgb(8, 135, 93);}
+
+/* Auth buttons */
+.authDiv {
+  display: flex;
+  gap: 0.02rem;
+  /* background-color: aqua; */
+  width:auto;
+}
+
+.authDiv button {
+  background: white;
+  color: rgb(8, 135, 93);
+  /* border: none; */
+  border: 0.02rem solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width:auto;
+  margin-left: 1rem;
+
+}
+
+.authDiv button:hover {
+  background: #fffffe;
+    background-color: rgb(8, 135, 93);
+
+  color: #fffffe;
+}
