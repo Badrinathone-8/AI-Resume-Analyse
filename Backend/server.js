@@ -11,7 +11,11 @@ import mainRouter from "./routes/mainRouter.js";
 const app = express();
 const PORT = process.env.PORT || 9000;
 
-app.use(cors()); // you can lock this down to your frontend origin later
+app.use(cors({
+  origin: "https://resumechecker-badr.onrender.com",  // your frontend URL
+  methods: ["GET", "POST"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+})); // you can lock this down to your frontend origin later
 app.use(express.json());
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads"))); // serve uploaded files
 
