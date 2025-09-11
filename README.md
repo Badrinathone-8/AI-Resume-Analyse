@@ -27,9 +27,10 @@
 
 ## 🖼️ Screenshots / Demo
 
-### Upload Resume Page
+### Home Page
 ![Upload Page](my-app/public/homepage.png)
-
+### Upload Page
+![Upload Page](my-app/public/resumepage.png)
 ### Analysis Page
 ![Analysis Page](https://user-images.githubusercontent.com/yourusername/analysis-page.png)
 
