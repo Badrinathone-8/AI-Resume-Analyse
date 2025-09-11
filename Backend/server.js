@@ -11,11 +11,25 @@ import mainRouter from "./routes/mainRouter.js";
 const app = express();
 const PORT = process.env.PORT || 9000;
 
-app.use(cors({
-  origin: "https://resumechecker-badr.onrender.com",  // your frontend URL
-  methods: ["GET", "POST"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-})); // you can lock this down to your frontend origin later
+const allowedOrigins = [
+  "http://localhost:3000", // local dev
+  "https://resumechecker-badr.onrender.com" // production frontend
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      // allow requests with no origin (like curl, Postman)
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      } else {
+        return callback(new Error("Not allowed by CORS"));
+      }
+    },
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use("/uploads", express.static(path.join(process.cwd(), "uploads"))); // serve uploaded files
 
