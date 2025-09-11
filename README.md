@@ -25,7 +25,7 @@
 
 ---
 ### Live-Link
-![Rendor.com](https://resumechecker-badr.onrender.com/)
+(https://resumechecker-badr.onrender.com/)
 
 
 ## 🖼️ Screenshots / Demo
