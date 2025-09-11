@@ -27,6 +27,15 @@
 ### Live-Link
 (https://resumechecker-badr.onrender.com/)
 
+---
+## 🛠️ Tech Stack
+
+| Frontend         | Backend          | AI / NLP             | Database      | Deployment        |
+|-----------------|----------------|--------------------|---------------|-----------------|
+| Next.js / React | Node.js / Express | Cohere AI          | MongoDB       | Render / Vercel |
+| Tailwind CSS    | Multer (file upload) | PDF parsing with pdf-parse | Mongoose      |                 |
+
+---
 
 ## 🖼️ Screenshots / Demo
 
@@ -38,21 +47,10 @@
 
 ### Analysis Page
 ![Upload Page](my-app/public/Analysis.png)
-### Analysis Page
-![Analysis Page](my-app/public/Screenshot 2025-09-11 123614.png)
-### Optional GIF Demo
-![Demo GIF](https://user-images.githubusercontent.com/yourusername/demo.gif)
 
 ---
 
-## 🛠️ Tech Stack
 
-| Frontend         | Backend          | AI / NLP             | Database      | Deployment        |
-|-----------------|----------------|--------------------|---------------|-----------------|
-| Next.js / React | Node.js / Express | Cohere AI          | MongoDB       | Render / Vercel |
-| Tailwind CSS    | Multer (file upload) | PDF parsing with pdf-parse | Mongoose      |                 |
-
----
 
 ## 💻 Getting Started (Local Setup)
 
