@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 9000;
 
 const allowedOrigins = [
   "http://localhost:3000", // local dev
-  "https://resumechecker-badr.onrender.com/" // production frontend
+  "https://resumechecker-badr.onrender.com" // production frontend
 ];
 
 app.use(
