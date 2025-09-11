@@ -33,6 +33,8 @@
 ![Upload Page](my-app/public/resumepage.png)
 ### Analysis Page
 ![Analysis Page](my-app/public/Screenshot 2025-09-11 123254.png)
+### Upload Page
+![Upload Page](my-app/public/Screenshot .png)
 ### Analysis Page
 ![Analysis Page](my-app/public/Screenshot 2025-09-11 123614.png)
 ### Optional GIF Demo
