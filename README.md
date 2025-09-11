@@ -32,7 +32,7 @@
 ### Upload Page
 ![Upload Page](my-app/public/resumepage.png)
 ### Analysis Page
-![Analysis Page](my-app/public/Screenshot 2025-09-11 123254.png)
+![Analysis Page](my-app/public/analysis.png)
 ### Upload Page
 ![Upload Page](my-app/public/Screenshot .png)
 ### Analysis Page
