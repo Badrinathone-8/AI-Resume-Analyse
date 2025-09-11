@@ -29,12 +29,12 @@
 
 ### Home Page
 ![Upload Page](my-app/public/homepage.png)
+
 ### Upload Page
 ![Upload Page](my-app/public/resumepage.png)
+
 ### Analysis Page
-![Analysis Page](my-app/public/analysis.png)
-### Upload Page
-![Upload Page](my-app/public/Screenshot .png)
+![Upload Page](my-app/public/Analysis.png)
 ### Analysis Page
 ![Analysis Page](my-app/public/Screenshot 2025-09-11 123614.png)
 ### Optional GIF Demo
