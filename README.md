@@ -24,10 +24,7 @@
 - ✅ Secure file handling  
 
 ---
-### Live-Link
-(https://resumechecker-badr.onrender.com/)
 
----
 ## 🛠️ Tech Stack
 
 | Frontend         | Backend          | AI / NLP             | Database      | Deployment        |
@@ -49,10 +46,10 @@
 ![Upload Page](my-app/public/Analysis.png)
 
 ---
-
 ### Live-Link
 (https://resumechecker-badr.onrender.com/)
 ---
+
 ## 💻 Getting Started (Local Setup)
 
 1. **Clone the repository**  
