@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 9000;
 
 const allowedOrigins = [
-  "http://localhost:3000", // local dev
+  "http://localhost:3001", // local dev
   "https://resumechecker-badr.onrender.com" // production frontend
 ];
 
