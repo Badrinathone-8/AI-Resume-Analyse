@@ -47,15 +47,16 @@ export const addResume = async (req, res) => {
     Methods: ...`;
 
     // Call Cohere
-    const response = await cohere.generate({
-      model: "command",
-      prompt,
-      max_tokens: 1000,
+       const response = await cohere.chat({
+      model: "command-a-03-2025",  // or "command-r-plus-08-2024" or "command-r-08-2024"
+      message: prompt,
       temperature: 0.7,
     });
+    //console.log(response.text);
 
     // Extract text safely
-    let result = response.generations?.[0]?.text || response.output_text || "No feedback generated";
+    let result = response.text
+//    ?.[0]?.text || response.output_text || "No feedback generated";
 
     // Save to MongoDB
     const newResume = await Resume.create({
