@@ -39,7 +39,10 @@ app.get("/", (req, res) => res.send("AI Resume Checker backend running"));
 
 async function start() {
   try {
-    await mongoose.connect(process.env.MONGO_URL, { });
+    await mongoose.connect(process.env.MONGO_URL, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     console.log("✅ MongoDB connected");
     app.listen(PORT, () => console.log(`🚀 Server listening on http://localhost:${PORT}`));
   } catch (err) {
